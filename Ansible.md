@@ -40,6 +40,7 @@ what is difference between play and playbook
 play contain more number of taks 
 playbook contain more number of plays 
    
-
+ansible_facts: ansible_facts is used to os specific variable  
  CI/CD  : If we stremling development and deploying process we called it CI and once CI is done like we have writen a code and we have push it to remote repositry we called as CD 
+ 
  
