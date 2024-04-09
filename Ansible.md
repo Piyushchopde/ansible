@@ -12,7 +12,7 @@ Ansible-lint : Ansible Lint is a command line tool that perform linting on Ansib
               
 Check mode and Diff mode need to learn 
 
-
+Loop ? 
 
 Ansible Interview Que :
 Why we use Ansible ?
