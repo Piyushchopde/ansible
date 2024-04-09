@@ -60,3 +60,8 @@ ansible_facts: ansible_facts is used to os specific variable
  CI/CD  : If we stremling development and deploying process we called it CI and once CI is done like we have writen a code and we have push it to remote repositry we called as CD 
  
  lookup puglins : 
+
+
+Templating : 
+jinja2 : 
+
