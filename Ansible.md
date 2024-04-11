@@ -1,25 +1,19 @@
-Modules: Different action run by taks called as modules 
+- Modules: Different action run by taks called as modules 
+         
           - system 
           - command
           - file
-          -database 
+          - database 
           - cloud 
           - windows 
           - Service modules
           - lineinfile module 
 
-Plugins: 
- - Dyanamic Inventry Plugins
- - Action plugins
-
-
-Ansible roles: 
-          
-
-Ansible-lint : Ansible Lint is a command line tool that perform linting on Ansible Playbooks roles and collections 
+- Plugins: pieces of code that augment Ansible's core functionality
+- Ansible roles:Ansible Roles provide a structured way to organize tasks, templates, files, and variables.
+- Ansible-lint : Ansible Lint is a command line tool that perform linting on Ansible Playbooks roles and collections 
               - its used to check bug erros one your file 
-
-  Variable 
+- Variable 
       Variable types: 
              -  Number
              - string 
