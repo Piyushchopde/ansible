@@ -12,7 +12,8 @@
 - Plugins: pieces of code that augment Ansible's core functionality
 - Ansible roles:Ansible Roles provide a structured way to organize tasks, templates, files, and variables.
 - Ansible-lint : Ansible Lint is a command line tool that perform linting on Ansible Playbooks roles and collections 
-              - its used to check bug erros one your file 
+              - its used to check bug erros one your file
+  command: ansible-lint playbook.yml
 - Variable 
       Variable types: 
              -  Number
