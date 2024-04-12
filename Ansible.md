@@ -42,13 +42,14 @@
 - If i have lot of file i want to copy it from host to remote server using ansible ?
     we can use COPY module also there are one more option is syncronized module we need to specify and sounce and destination under that
 
-- How to encrypt file :   ansible valut encrpt file name 
+- How to encrypt already created file  file :   ansible valut encrpt file name 
 
-- how to create encrpted file 
-   ansible valut create encrpt filename 
+- how to create encrpted file Command: ansible-vault encrypt <file_name>
+
+- ansible-playbook -i encrypted_inventory playbook.yaml --ask-vault-pass
 
 - what is difference between play and playbook
-   play contain more number of taks 
+   play contain more number of task 
    playbook contain more number of plays 
    
 - ansible_facts: ansible_facts is used to os specific variable  
