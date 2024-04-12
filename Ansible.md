@@ -63,6 +63,14 @@
                            msg: "{{ lookup('file', '/path/to/file.txt') }}"
 
 
+- Strategy:
+   - liner : all task executed on all server this is default 
+   - free : if you dont want to wait for another server to complete their task to use free
+   - batch : if you want to percentgaely doing task to any server we use tach : serial keyword therir
+
+- Async and poll :
+    ? 
+
 Templating : 
 jinja2 : 
 
