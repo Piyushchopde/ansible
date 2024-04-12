@@ -52,11 +52,15 @@
    play contain more number of task 
    playbook contain more number of plays 
    
-- ansible_facts: ansible_facts is used to os specific variable  
+- ansible_facts: ansible_facts is used to os specific variable
+   when condition is used ansible_fact== "debian"  
 
  CI/CD  : If we stremling development and deploying process we called it CI and once CI is done like we have writen a code and we have push it to remote repositry we called as CD 
  
- lookup puglins : 
+ lookup puglins : Lookup Plugins are used to fetch data from external sources during playbook execution
+             ex:     tasks:
+                     - debug:
+                           msg: "{{ lookup('file', '/path/to/file.txt') }}"
 
 
 Templating : 
