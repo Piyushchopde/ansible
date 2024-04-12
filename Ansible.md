@@ -21,8 +21,9 @@
              - Diston ary 
               
 - Check mode : In check mode, Ansible runs without making any changes on remote systems
-- Diff mode : 
-
+           command : ansible-playbook -i inventory playbook.yml --check 
+- Diff mode : is used to show the differences or changes that Ansible would make to the target system.
+         command: ansible-playbook -i inventory playbook.yml --diff 
 - Loop:  used to repeat any task or a part of code multiple times in an Ansible-playbook
 
 
